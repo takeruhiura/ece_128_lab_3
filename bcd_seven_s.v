@@ -1,15 +1,15 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Company: Lehigh University
+// Engineer: Takeru Hiura and Shenrui Duan
 // 
 // Create Date: 09/16/2025 01:41:18 PM
-// Design Name: 
+// Design Name: Seven segment display module
 // Module Name: bcd_seven_s
-// Project Name: 
+// Project Name: ECE 128 Lab 4
 // Target Devices: 
 // Tool Versions: 
-// Description: 
+// Description: This is the module to map out the binary digits for each LED. 
 // 
 // Dependencies: 
 // 

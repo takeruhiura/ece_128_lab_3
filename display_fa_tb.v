@@ -1,15 +1,15 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Company: Lehigh University
+// Engineer: Takeru Hiura and Shenrui Duan
 // 
 // Create Date: 09/16/2025 02:59:20 PM
-// Design Name: 
+// Design Name: Testbench for full adder seven segment display module. 
 // Module Name: display_fa_tb
-// Project Name: 
+// Project Name: ECE 128 Lab 4
 // Target Devices: 
 // Tool Versions: 
-// Description: 
+// Description: This test bench uses several test cases to check the functionaity of the full adder with the seven segment display. 
 // 
 // Dependencies: 
 // 
@@ -23,17 +23,18 @@
 module display_fa_tb;
 reg [3:0] A;
 reg [3:0] B;
-reg [3:0] data_in;
 wire [6:0] seg;
-wire [3:0] sum;
 
-display_fa uut0(.A(A),.B(B),.seg(seg),.sum(sum));
+display_fa uut0(.A(A),.B(B),.seg(seg));
 
 
 initial begin
-    A=4'b0011;B=4;b0010;#10;
-    A=4'b0101;B=4'b0100;#10;
-    A=4'b0000;B=4'b0100;#10;
+    A=4'b0011;B=4'b0010;
+    #10;
+    A=4'b0101;B=4'b0100;
+    #10;
+    A=4'b0000;B=4'b0100;
+    #10;
     
 $stop;
 end

@@ -1,15 +1,15 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Company: Lehigh University
+// Engineer: Takeru Hiura
 // 
 // Create Date: 09/16/2025 02:44:23 PM
 // Design Name: 
 // Module Name: display_fa
-// Project Name: 
+// Project Name: ECE 128 Lab 4
 // Target Devices: 
 // Tool Versions: 
-// Description: 
+// Description: This is the module that implements the full adder and the display. 
 // 
 // Dependencies: 
 // 
